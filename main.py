@@ -132,7 +132,7 @@ class MainThread(QThread):
             audio = r.listen(source)
             
         try:
-
+            
             print("Recognizing....")
             query = r.recognize_google(audio, language='en-in')
             print(f"user said:{query}\n")
