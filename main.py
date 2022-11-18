@@ -34,7 +34,7 @@ from Pixiefront import Ui_PIXIE
 user = "Samruddhi, Chinmayi ,Pradnya And Ameya"
 assistant = "Pixie"
 
-print('Loading Your AI Personal Assistant - Pixie')
+print('Loading Your AI  Personal Assistant - Pixie')
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 print(voices[1].id)
